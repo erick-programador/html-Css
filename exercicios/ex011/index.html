@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <h1>Imagen dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>aprendendo a reproduzir áudios em HTML5.</p>
+    <audio preload= "metadata" controls>
+        <source src="midia/Epic Battle.mp3" type="audio/mpeg">
+        <source src="midia/Epic Battle.ogg" type="audio/ogg">
+        <source src="midia/Epic Battle.wav" type="audio/wave">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio, <a href="midia/Epic Battle.mp3">clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+    <h1>hospedagem de vídeos</h1>
+
+    <h2>vídeo hospedado no meu próprio servidor</h2>
+    <video width="500" poster="imagens/Picsart_24-07-16_13-14-04-477.jpg" controls>
+        <source src="midia/teste de ambientação em baixo d'água - Stick Fight App.mp4" type="video/mp4">
+        <source src="midia/teste-de-ambientação-em-baixo-d_água-Stick-Fight-App.m4v" type="mp4">
+        <source src="midia/teste de ambientação em baixo d'água - Stick Fight App.webm" type="video/webm">
+        <p>Seu navegador não consegue acessar o vídeo</p>
+    </video>
+    <p>Uma desvantagem é que isso acaba ficando caro, fica pensando pro servidor, mas temos um jeito de hospedar vídeos gratuitamente...</p>
+    <h2>Hospedagem de vídeos do youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pdocFxraDdg?si=3gA8MMAnG8qcZbFZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hJgl3_juxXY?si=85t4__B7szxZbFz7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<body>
+    
+</body>
+</html>

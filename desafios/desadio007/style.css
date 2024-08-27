@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    background-color: #28A19B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #8B4E2E ;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.39) ;
+    color: #E04D00 ;
+    text-shadow: 1px 1px 10px white;
+}
+
+#animacao {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #0f3d3b ;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+#animacao:hover {
+    background-color: #E04D00;
+    color: white;
+    font-size: 32px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #0f3d3b ;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+
+a#youtube:hover {
+    background-color: #e00000;
+    border-radius: 15px ;
+    color: #ffffff;
+    font-size: 55px;
+    text-decoration: underline;
+}
