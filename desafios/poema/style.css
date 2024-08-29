@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: fonte1 ;
+    src: url(fonte/PlayfairDisplay-VariableFont_wght.ttf); /* fonte para o título*/
+}
+@font-face {
+    font-family:fonte2 ;
+    src: url(fonte/Sriracha-Regular.ttf); /* Fonte dos parágrafos*/
+}
+
+audio {
+    margin: 30px;
+    margin-left: 25%
+}
+*{
+    margin: 0px;
+}
+header  {
+    height: 250px;
+    width: 100%;
+    background-image: linear-gradient(to right,#1ebfff,#012a36);
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.466);
+}
+header > h1 {
+    color: #ffffff;
+    padding-top: 40px;
+    font-family: fonte1;
+    font-weight: 500px;
+    font-size: 4.3em;
+    text-align: center;
+    transition: .5s;
+}
+
+header > h1 > strong {
+    color: black;
+}
+
+header > p {
+    font-size: 22px;
+}
+header > p > a {
+    font-family: fonte2;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    transition: .7s;
+}
+
+header > p > a:hover {
+    text-decoration: underline ;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.486);
+    font-size: 30px;
+    border-radius: 10px;
+}
+body {
+    background-image: linear-gradient(to bottom,rgb(59, 216, 236), rgb(85, 11, 155), black);
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: fonte2  ;
+    font-size: 2.3em;
+    line-height: 2em;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+#papel {
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-textura-de-papel-amassado-azul-abstrato_1017-31716.jpg);
+    margin-left: 0px;
+}
+#img1 {
+    background-image: url(https://g3i5r4x7.rocketcdn.me/wp-content/uploads/2019/12/neve-curiosidades-efeitos-formacao-e-onde-se-precipta-1.jpg);
+    background-position: center center;
+    
+}
+
+#img2 {
+    background-image: url(https://www.fabricadeoculosdocacem.pt/wp-content/uploads/2017/11/OKcegueira.jpg);
+    background-position: center center;
+}
+#img3 {
+    background-image: url(https://images.unsplash.com/photo-1547888413-5c8a8871d4bd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center center;
+}
+#img4 {
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2023/07/01/A-Round-Stained-Glass-Design-Of-A-Black-Fox-73468149-1.png);
+    background-position: right center;
+}
+#img5 {
+    background-image: url(imagens/raposa-boca-aberta.png);
+    background-position: center center;
+}
+#img6 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZB8pppnAY2qiBCaeS_kGUlg_LyKma2CZzQ&s);
+    background-position: center center;
+}
+#img7 {
+    background-image: url(https://i0.wp.com/dolcemorumbi.com/wp-content/uploads/2023/06/solidao-solitude-1-Bc-Teh.webp?fit=1920%2C1280&ssl=1);
+    background-position: center center;
+}
+#img8 {
+    background-image: url();
+    background-position: right center;
+}
+#img9 {
+    background-image: url();
+    background-position: right center;
+}
+#img10 {
+    background-image: url();
+    background-position: right center;
+}
+section.imagem {
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.imagem > p {
+    background-color: #00000080;
+    max-width: 40%;
+    color: #ffffff;
+    
+}
+
+
