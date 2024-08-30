@@ -10,14 +10,15 @@
 }
 
 audio {
-    margin: 30px;
-    margin-left: 25%
+    margin-top: 30px;
+    position: relative;
+    left: 15%;
 }
 *{
     margin: 0px;
 }
 header  {
-    height: 250px;
+    height: 350px;
     width: 100%;
     background-image: linear-gradient(to right,#1ebfff,#012a36);
     box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.466);
@@ -61,14 +62,16 @@ body {
 p {
     color: rgb(255, 255, 255);
     font-family: fonte2  ;
-    font-size: 2.3em;
+    font-size: 2.2em;
     line-height: 2em;
     margin-top: 65px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 #papel {
     background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-textura-de-papel-amassado-azul-abstrato_1017-31716.jpg);
     margin-left: 0px;
+    padding: 15px;
+
 }
 #img1 {
     background-image: url(https://g3i5r4x7.rocketcdn.me/wp-content/uploads/2019/12/neve-curiosidades-efeitos-formacao-e-onde-se-precipta-1.jpg);
@@ -118,10 +121,16 @@ section.imagem {
 }
 
 section.imagem > p {
-    background-color: #00000080;
+    background-color: #0000007e;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
     max-width: 40%;
     color: #ffffff;
     
+}
+#img4 > p {
+    background-color: rgba(0, 0, 0, 0.651);
 }
 
 
