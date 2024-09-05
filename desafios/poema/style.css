@@ -72,6 +72,7 @@ p {
     margin-left: 10px;
 }
 #papel {
+    font-size: 30px;
     background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-textura-de-papel-amassado-azul-abstrato_1017-31716.jpg);
     margin-left: 0px;
     padding: 20px;
@@ -79,7 +80,7 @@ p {
     transition: 1.7s;
 }
 #papel:hover {
-    font-size: 50px;
+    font-size: 40px;
     padding: 40px;
     box-shadow: 10px 10px 40px 20px white;
 }
